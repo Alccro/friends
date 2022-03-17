@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/friends/static/css/main.d9b117a6.css",
+    "main.js": "/friends/static/js/main.64a14c84.js",
+    "static/js/787.32032a02.chunk.js": "/friends/static/js/787.32032a02.chunk.js",
+    "static/media/NEONLEDLight.otf": "/friends/static/media/NEONLEDLight.1a7a3fe4cf0bd69fb977.otf",
+    "index.html": "/friends/index.html",
+    "main.d9b117a6.css.map": "/friends/static/css/main.d9b117a6.css.map",
+    "main.64a14c84.js.map": "/friends/static/js/main.64a14c84.js.map",
+    "787.32032a02.chunk.js.map": "/friends/static/js/787.32032a02.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9b117a6.css",
+    "static/js/main.64a14c84.js"
+  ]
+}
