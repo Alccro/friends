@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import CardList from './CardList';
-import SearchBox from './SearchBox';
-import Scroll from './Scroll';
+import CardList from '../components/CardList';
+import SearchBox from '../components/SearchBox';
+import Scroll from '../components/Scroll';
+import ErrorBoundary from '../components/ErrorBoundary'
 import './App.css';
 
 class App extends Component {
@@ -35,7 +36,9 @@ componentDidMount() {
                    <h1 className='fw7 b f1 hot-pink'>Loyal Friends</h1>
                     <SearchBox searchChange={this.onSearchChange} />
                     <Scroll>
+                        <ErrorBoundary>
                         <CardList friends={filteredFriends} />
+                        </ErrorBoundary>
                     </Scroll>
                 </div>
             );
