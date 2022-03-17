@@ -29,7 +29,7 @@ componentDidMount() {
             return friend.name.toLowerCase().includes(this.state.searchField.toLowerCase());
         })
         if (this.state.friends.length === 0) {
-            return <h1 className='tc'>Give me a sec to find some friends for you</h1>
+            return <h1 className='tc'>Just one second please...</h1>
         } else {
             return (
                <div  className='tc'>
